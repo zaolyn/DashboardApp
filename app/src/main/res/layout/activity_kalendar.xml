@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".kalendar"
+    android:orientation="vertical"
+    android:id="@+id/kalendar"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myDate"
+        android:text="Tandai Harimu!"
+        android:textColor="@color/abuabu"
+        android:textSize="23sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_above="@id/linlay"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:id="@+id/linlay"
+        android:background="@drawable/boxgreen"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="380dp"
+        android:layout_marginRight="44dp"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+            android:id="@+id/calen"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttoncalen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:text="Tandai "
+        android:textColor="@color/abuabu"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@id/linlay"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/boxyello"
+        />
+
+
+
+
+</RelativeLayout>
