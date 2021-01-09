@@ -1,4 +1,4 @@
-package com.example.openhouse;
+package com.Faza.openhouse;
 
 import org.junit.Test;
 

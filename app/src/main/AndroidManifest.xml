@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.openhouse">
+    package="com.Faza.openhouse">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".alarm"
+        <activity android:name="com.Faza.openhouse.alarm"
             android:screenOrientation="portrait"/>
-        <activity android:name=".kalendar"
+        <activity android:name="com.Faza.openhouse.kalendar"
             android:screenOrientation="portrait"/>
 <!--        <activity android:name=".quiz"-->
 <!--            android:screenOrientation="portrait"/>-->
-        <activity android:name=".kalkulator"
+        <activity android:name="com.Faza.openhouse.kalkulator"
             android:screenOrientation="portrait"/>
-        <activity android:name=".stopwatcAct"
+        <activity android:name="com.Faza.openhouse.stopwatcAct"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.Faza.openhouse.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.Faza.openhouse.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package com.example.openhouse;
+package com.Faza.openhouse;
 
 import android.os.Bundle;
 import android.os.SystemClock;

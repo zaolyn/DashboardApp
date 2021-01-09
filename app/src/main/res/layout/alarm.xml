@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/alarm"
     android:background="@color/white"
-    tools:context="com.example.openhouse.MainActivity">
+    tools:context="com.Faza.openhouse.MainActivity">
 
     <TextView
         android:textColor="@color/abuabu"
